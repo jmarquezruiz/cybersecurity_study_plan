@@ -149,6 +149,38 @@ Cada archivo de teoría sigue el formato:
 
 ---
 
+## ⚙️ Skills
+
+Las skills están en `.skills/`. Requiere configuración para funcionar con opencode.
+
+### Instalación
+
+```bash
+# Copiar skills a ~/.agents/skills/
+cp -r .skills/* ~/.agents/skills/
+```
+
+### Uso
+
+| Skill | Activación | Función |
+|-------|-----------|--------|
+| **cyber_profesor** | `/cyber_profesor fase [N] [red/blue]` | Explicaciones teóricas |
+| **cyber_tareas** | `/cyber_tareas fase [N] [red/blue]` | Corregir ejercicios |
+| **cyber_evaluacion** | `/cyber_evaluacion fase [N]` | Examen y nota |
+
+### Ejemplos
+
+```bash
+/cyber_profesor fase 1 red team
+/cyber_profesor fase 1 blue team
+/cyber_tareas fase 1 red team
+/cyber_evaluacion fase 1
+```
+
+*Más info: `.skills/README.md`*
+
+---
+
 ## 🔗 Recursos
 
 - [PortSwigger Web Security Academy](https://portswigger.net/web-security)
