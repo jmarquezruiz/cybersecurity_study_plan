@@ -7,7 +7,7 @@ Este archivo contiene Instrucciones permanentes para el agente sobre el setup ed
 
 ## Contexto del Usuario
 
-**Usuario:** Marquez (desarrollador fullstack semi-senior)
+**Usuario:** Marquez (desarrollador fullstack)
 **Objetivo:** Especializarse en ciberseguridad Real
 **Duración estimada:** 18 meses (7 fases)
 **Setup:** Instituto-style con 3 roles de profesor
