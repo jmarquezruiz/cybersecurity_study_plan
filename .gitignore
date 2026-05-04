@@ -1,0 +1,142 @@
+# ============================================
+# .gitignore - Instituto de Ciberseguridad
+# ============================================
+
+# ----------------------------------------
+# Python / Virtual Environments
+# ----------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+egg/
+*.egg-info/
+*.egg
+.eggs/
+
+# Entornos virtuales (futuros)
+venv/
+ENV/
+env/
+.venv/
+
+# Pip/Conda
+pip-log.txt
+pip-delete-this-directory.txt
+.pip/
+
+# ----------------------------------------
+# IDEs & Editores
+# ----------------------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# EMACS
+*~
+
+# Vim
+[._]*.s[a-v][a-z]
+!echo "[._]*.s[a-v][a-z]" >> .gitignore
+[._]*.un~
+
+# IntelliJ
+*.iml
+
+# PyCharm
+.idea/
+
+# ----------------------------------------
+# Scripts & Tools Personales
+# ----------------------------------------
+scripts_varios/.venv/
+scripts_varios/*.log
+
+# ----------------------------------------
+# Laboratorio / Labs
+# ----------------------------------------
+red-team-lab-past/volumes/
+red-team-lab-past/*.env
+*.pcap
+*.pcapng
+*.log
+
+# Docker
+.docker/
+docker-compose.override.yml
+
+# ----------------------------------------
+# Keys & Credentials
+# ----------------------------------------
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+*.jks
+*.keystore
+*.truststore
+.env
+.env.local
+.env.*.local
+credentials.json
+*.secret
+secrets/
+keys/
+
+# SSH
+*.ssh/
+config  # SSH config personal
+
+# ----------------------------------------
+# OS
+# ----------------------------------------
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+
+# ----------------------------------------
+# Temporary
+# ----------------------------------------
+*.tmp
+*.bak
+*.backup
+*.old
+*~
+.cache/
+temp/
+tmp/
+
+# ----------------------------------------
+# Certificados SSL/TLS (dev)
+# ----------------------------------------
+*.crt
+*.pem
+*.key
+
+# ----------------------------------------
+# CTF / Competitions
+# ----------------------------------------
+*.flag
+flag.txt
+*_flag*
+
+# ----------------------------------------
+# Notas Personales
+# ----------------------------------------
+*.notas
+notas_personales/
