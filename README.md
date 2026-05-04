@@ -5,7 +5,7 @@
 ## 🎯 Objetivo
 Especialización serious en ciberseguridad real con estructura de instituto/universidad.
 
-**Usuario:** Marquez (desarrollador fullstack semi-senior)
+**Usuario:** Marquez (desarrollador fullstack)
 **Duración:** 18 meses (7 fases + setup)
 
 ---
